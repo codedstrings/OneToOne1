@@ -13,7 +13,7 @@ namespace OneToOne1.Models
         public int Pin { get; set; }
 
         //navigation property
-        public int StudId { get; set; } //fk
+        public int TestStudentId { get; set; } //fk
         public TestStudent? TestStudObj { get; set; }
     }
 }

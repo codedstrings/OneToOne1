@@ -14,7 +14,7 @@ namespace OneToOne1
             stud1.Description = "Description";
 
             stud1.StudentAdressObj = new StudentAdress()
-            {
+            { 
                 City = "cityName",
                 Pin=680563,
             };
